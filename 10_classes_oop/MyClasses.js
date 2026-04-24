@@ -5,6 +5,7 @@ class user {
         this.password = password
 
     }
+    
 
     encryptPassword(){
         return `encrypted password is ${this.password}abc`
